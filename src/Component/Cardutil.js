@@ -4,32 +4,33 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
-export default function Cardutil() {
+export default function Cardutil({coursesdata}) {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate(`/coursevideo/${coursesdata.id}`);
+  }
+
   return (
-    <Card sx={{ maxWidth: 345}}>
+    <Card sx={{ maxWidth: 345}} onClick={handleClick} style={{margin: "2rem 1rem"}}>
       <CardActionArea>
         <CardMedia
           component="img"
-          height="140"
-          image="https://www.questpond.com/img/2.png"
+          height="200"
+          image={coursesdata.imagelink}
           alt="green iguana"
         />
-        <CardContent>
+        <CardContent sx={{paddingBottom: "1rem"}}>
           <Typography gutterBottom variant="h5" component="div">
-            Lizard
+            {coursesdata.title}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+          <Typography variant="body2" color="text.secondary" height={150}>
+            {coursesdata.Sdescription}
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-      </CardActions>
     </Card>
   );
 }

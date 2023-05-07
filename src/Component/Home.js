@@ -5,6 +5,7 @@ import Cards from './Cards'
 import Categories from "./Categories"
 import Footer from './Footer'
 import CookieConsent from "react-cookie-consent";
+import coursesdata from './data'
 
 
 export default function Home() {
@@ -19,7 +20,7 @@ export default function Home() {
         <Crousel />
 
         <h1 style={{marginTop: "3rem", textAlign: "center"}}>Courses</h1>
-        <Cards />
+        <Cards coursesdata={coursesdata} temp={0}/>
 
         <h1 style={{marginTop: "3rem", textAlign: "center"}}>Categories</h1>
         <Categories />

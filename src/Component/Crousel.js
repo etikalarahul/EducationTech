@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import "./Card.css"
 
 function Crousel() {
   const [index, setIndex] = useState(0);
@@ -15,7 +16,7 @@ function Crousel() {
           className="d-block w-100"
           src="https://www.wemakescholars.com/uploads/blog/TopprofessionalITcoursetopursueincollege.jpg"
           alt="First slide"
-          height="700px"
+          height="600px"
         />
         <Carousel.Caption>
           <h3>First slide label</h3>
@@ -27,7 +28,7 @@ function Crousel() {
           className="d-block w-100"
           src="https://leverageedu.com/blog/wp-content/uploads/2020/08/Diploma-in-IT.jpg"
           alt="Second slide"
-          height="700px"
+          height="600px"
         />
 
         <Carousel.Caption>
@@ -40,7 +41,7 @@ function Crousel() {
           className="d-block w-100"
           src="https://nearlearn.com/blog/wp-content/uploads/2021/12/Blog-1.png"
           alt="Third slide"
-          height="700px"
+          height="600px"
         />
 
         <Carousel.Caption>

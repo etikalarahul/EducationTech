@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Courses from './Component/Courses';
 import BlogPage from './Component/BlogPage';
 import BlogDetails from './Component/BlogDetails';
+import CourseVideo from './Component/CourseVideo';
  
 
 function App() {
@@ -14,9 +15,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/courses" element={<Courses />} />
+        <Route path="/courses/:courseId" element={<CourseVideo />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blogdetails/:blogId" element={<BlogDetails />} />
-
       </Routes>
       </BrowserRouter>
   );

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/EducationTech/static/css/main.3ef11846.css",
-    "main.js": "/EducationTech/static/js/main.995631ab.js",
+    "main.js": "/EducationTech/static/js/main.fbc34fbb.js",
     "static/js/787.68e20542.chunk.js": "/EducationTech/static/js/787.68e20542.chunk.js",
     "index.html": "/EducationTech/index.html",
     "main.3ef11846.css.map": "/EducationTech/static/css/main.3ef11846.css.map",
-    "main.995631ab.js.map": "/EducationTech/static/js/main.995631ab.js.map",
+    "main.fbc34fbb.js.map": "/EducationTech/static/js/main.fbc34fbb.js.map",
     "787.68e20542.chunk.js.map": "/EducationTech/static/js/787.68e20542.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ef11846.css",
-    "static/js/main.995631ab.js"
+    "static/js/main.fbc34fbb.js"
   ]
 }

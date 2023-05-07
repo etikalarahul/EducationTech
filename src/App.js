@@ -11,19 +11,16 @@ import CourseVideo from './Component/CourseVideo';
 
 function App() {
   return (
-      // <BrowserRouter>
-      // <Routes>
-
-      //   <Route path="/" element={<Home />} />
-      //   <Route path="/courses" element={<Courses />} />
-      //   <Route path="/coursevideo/:courseId" element={<CourseVideo />} />
-      //   <Route path="/blog" element={<BlogPage />} />
-      //   <Route path="/blogdetails/:blogId" element={<BlogDetails />} />
-      // </Routes>
-      // </BrowserRouter>
-      <div>
-        <Home/>
-      </div>
+      <BrowserRouter>
+      <Routes>
+        
+        <Route path="/" element={<Home />} />
+        <Route path="/courses" element={<Courses />} />
+        <Route path="/coursevideo/:courseId" element={<CourseVideo />} />
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/blogdetails/:blogId" element={<BlogDetails />} />
+      </Routes>
+      </BrowserRouter>
   );
 }
 

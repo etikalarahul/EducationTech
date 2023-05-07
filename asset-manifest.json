@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/EdTech/static/css/main.3ef11846.css",
-    "main.js": "/EdTech/static/js/main.af556e95.js",
-    "static/js/787.68e20542.chunk.js": "/EdTech/static/js/787.68e20542.chunk.js",
-    "index.html": "/EdTech/index.html",
-    "main.3ef11846.css.map": "/EdTech/static/css/main.3ef11846.css.map",
-    "main.af556e95.js.map": "/EdTech/static/js/main.af556e95.js.map",
-    "787.68e20542.chunk.js.map": "/EdTech/static/js/787.68e20542.chunk.js.map"
+    "main.css": "/EducationTech/static/css/main.3ef11846.css",
+    "main.js": "/EducationTech/static/js/main.995631ab.js",
+    "static/js/787.68e20542.chunk.js": "/EducationTech/static/js/787.68e20542.chunk.js",
+    "index.html": "/EducationTech/index.html",
+    "main.3ef11846.css.map": "/EducationTech/static/css/main.3ef11846.css.map",
+    "main.995631ab.js.map": "/EducationTech/static/js/main.995631ab.js.map",
+    "787.68e20542.chunk.js.map": "/EducationTech/static/js/787.68e20542.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ef11846.css",
-    "static/js/main.af556e95.js"
+    "static/js/main.995631ab.js"
   ]
 }
